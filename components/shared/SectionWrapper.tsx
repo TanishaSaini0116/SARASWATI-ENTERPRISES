@@ -12,12 +12,12 @@ export const SectionWrapper = ({ children, className, id, bg = 'white' }: Sectio
   const backgrounds = {
     white: 'bg-white',
     gray: 'bg-gray-50',
-    navy: 'bg-brand-navy text-white'
+    navy: 'bg-primary text-white'
   };
 
   return (
-    <section 
-      id={id} 
+    <section
+      id={id}
       className={cn("py-20 md:py-28", backgrounds[bg], className)}
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">

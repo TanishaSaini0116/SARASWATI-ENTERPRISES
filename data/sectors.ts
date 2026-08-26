@@ -14,7 +14,7 @@ export const sectors: Sector[] = [
     slug: 'hospitals',
     description: 'Ultra-pure water solutions meeting stringent medical and dialysis standards.',
     icon: 'Stethoscope',
-    image: 'https://placehold.co/600x400/0E3B45/F6F4EF?text=Hospital+Water+System'
+    image: 'https://placehold.co/600x400/26495C/F6F4EF.png?text=Hospital+Water+System'
   },
   {
     id: 'sec-2',
@@ -22,7 +22,7 @@ export const sectors: Sector[] = [
     slug: 'hotels',
     description: 'Ensuring safe drinking water and soft water for laundry and bathing.',
     icon: 'Hotel',
-    image: 'https://placehold.co/600x400/1C7C93/F6F4EF?text=Hotel+Water+Treatment'
+    image: 'https://placehold.co/600x400/6C9BB0/F6F4EF.png?text=Hotel+Water+Treatment'
   },
   {
     id: 'sec-3',
@@ -30,7 +30,7 @@ export const sectors: Sector[] = [
     slug: 'offices',
     description: 'Centralized RO plants for employee health and HVAC cooling tower treatment.',
     icon: 'Building2',
-    image: 'https://placehold.co/600x400/2F6B47/F6F4EF?text=Office+Water+Solutions'
+    image: 'https://placehold.co/600x400/7A9B6E/F6F4EF.png?text=Office+Water+Solutions'
   },
   {
     id: 'sec-4',
@@ -38,6 +38,6 @@ export const sectors: Sector[] = [
     slug: 'schools',
     description: 'Durable, high-capacity drinking water stations for student safety.',
     icon: 'GraduationCap',
-    image: 'https://placehold.co/600x400/B8863F/F6F4EF?text=School+RO+Systems'
+    image: 'https://placehold.co/600x400/D9C9A3/F6F4EF.png?text=School+RO+Systems'
   }
 ];

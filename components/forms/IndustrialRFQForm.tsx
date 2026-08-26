@@ -14,9 +14,9 @@ export const IndustrialRFQForm = () => {
 
   if (status === 'success') {
     return (
-      <div className="p-8 text-center bg-green-50 rounded-xl">
-        <h3 className="text-xl font-bold text-green-800">RFQ Submitted!</h3>
-        <p className="mt-2 text-green-700">Our engineering team will contact you shortly.</p>
+      <div className="p-8 text-center bg-soft-bg rounded-xl">
+        <h3 className="text-xl font-bold text-primary">RFQ Submitted!</h3>
+        <p className="mt-2 text-primary">Our engineering team will contact you shortly.</p>
       </div>
     );
   }
@@ -48,7 +48,7 @@ export const IndustrialRFQForm = () => {
         <FormField label="Feed Water Source" placeholder="e.g. Borewell, River, Municipal" required />
       </div>
       <FormField label="Additional Requirements / Water Analysis Details" as="textarea" />
-      <button type="submit" disabled={status === 'submitting'} className="w-full bg-brand-navy text-white py-4 rounded-lg font-bold hover:bg-opacity-90 transition">
+      <button type="submit" disabled={status === 'submitting'} className="w-full bg-primary text-white py-4 rounded-lg font-bold hover:bg-opacity-90 transition">
         {status === 'submitting' ? 'Submitting RFQ...' : 'Submit Request for Quotation'}
       </button>
     </form>

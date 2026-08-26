@@ -33,7 +33,7 @@ export const products: Product[] = [
       { label: 'Recovery Rate', value: '50% to 75%' },
       { label: 'Power Consumption', value: 'Varies by capacity' },
     ],
-    image: 'https://placehold.co/800x600/0B3D6E/FFF?text=Industrial+RO+Plant',
+    image: 'https://placehold.co/800x600/26495C/FFF.png?text=Industrial+RO+Plant',
   },
   {
     id: 'ind-2',
@@ -55,7 +55,7 @@ export const products: Product[] = [
       { label: 'Automation', value: 'Semi/Fully Automatic' },
       { label: 'Material', value: 'Epoxy coated MS / Civil' },
     ],
-    image: 'https://placehold.co/800x600/2E9DE0/FFF?text=ETP+Plant',
+    image: 'https://placehold.co/800x600/6C9BB0/FFF.png?text=ETP+Plant',
   },
   {
     id: 'ind-3',
@@ -77,7 +77,7 @@ export const products: Product[] = [
       { label: 'Treated Water BOD', value: '< 10 mg/L (with MBR)' },
       { label: 'Automation', value: 'Fully Automatic PLC Control' },
     ],
-    image: 'https://placehold.co/800x600/4CAF50/FFF?text=STP+Plant',
+    image: 'https://placehold.co/800x600/7A9B6E/FFF.png?text=STP+Plant',
   },
   {
     id: 'ind-4',
@@ -99,7 +99,7 @@ export const products: Product[] = [
       { label: 'Regeneration', value: 'Co-current / Counter-current' },
       { label: 'MOC', value: 'FRP / Mild Steel Rubber Lined' },
     ],
-    image: 'https://placehold.co/800x600/0B3D6E/FFF?text=DM+Plant',
+    image: 'https://placehold.co/800x600/26495C/FFF.png?text=DM+Plant',
   },
   {
     id: 'ind-5',
@@ -121,7 +121,7 @@ export const products: Product[] = [
       { label: 'Recovery', value: 'Up to 95%' },
       { label: 'Operating Pressure', value: '1 to 3 Bar' },
     ],
-    image: 'https://placehold.co/800x600/2E9DE0/FFF?text=UF+System',
+    image: 'https://placehold.co/800x600/6C9BB0/FFF.png?text=UF+System',
   },
   {
     id: 'ind-6',
@@ -143,7 +143,7 @@ export const products: Product[] = [
       { label: 'Recovery Rate', value: '35% to 45%' },
       { label: 'Operating Pressure', value: '60 to 80 Bar' },
     ],
-    image: 'https://placehold.co/800x600/0B3D6E/FFF?text=Desalination+Plant',
+    image: 'https://placehold.co/800x600/26495C/FFF.png?text=Desalination+Plant',
   },
   {
     id: 'ind-7',
@@ -165,7 +165,7 @@ export const products: Product[] = [
       { label: 'Output Silica', value: '< 0.02 ppm' },
       { label: 'MOC', value: 'FRP / MSRL' },
     ],
-    image: 'https://placehold.co/800x600/4CAF50/FFF?text=Mixed+Bed+Unit',
+    image: 'https://placehold.co/800x600/7A9B6E/FFF.png?text=Mixed+Bed+Unit',
   },
   {
     id: 'ind-8',
@@ -187,7 +187,7 @@ export const products: Product[] = [
       { label: 'Shelf Life', value: '1 to 2 Years' },
       { label: 'Types', value: 'Liquid and Powder forms' },
     ],
-    image: 'https://placehold.co/800x600/2E9DE0/FFF?text=Treatment+Chemicals',
+    image: 'https://placehold.co/800x600/6C9BB0/FFF.png?text=Treatment+Chemicals',
   },
   {
     id: 'ind-9',
@@ -209,7 +209,7 @@ export const products: Product[] = [
       { label: 'Mounting', value: 'Panel / Wall mount' },
       { label: 'Communication', value: 'RS485 Modbus (Optional)' },
     ],
-    image: 'https://placehold.co/800x600/0B3D6E/FFF?text=Testing+Instruments',
+    image: 'https://placehold.co/800x600/26495C/FFF.png?text=Testing+Instruments',
   },
 
   // COMMERCIAL
@@ -233,7 +233,7 @@ export const products: Product[] = [
       { label: 'Installation', value: 'Plug and Play' },
       { label: 'Power', value: '220V Single Phase' },
     ],
-    image: 'https://placehold.co/800x600/0B3D6E/FFF?text=Commercial+RO+Plant',
+    image: 'https://placehold.co/800x600/26495C/FFF.png?text=Commercial+RO+Plant',
   },
   {
     id: 'com-2',
@@ -255,7 +255,7 @@ export const products: Product[] = [
       { label: 'Treated Water', value: 'Meets local municipal board norms' },
       { label: 'Power Consumption', value: 'Optimized for low OPEX' },
     ],
-    image: 'https://placehold.co/800x600/4CAF50/FFF?text=Commercial+STP',
+    image: 'https://placehold.co/800x600/7A9B6E/FFF.png?text=Commercial+STP',
   },
   {
     id: 'com-3',
@@ -277,7 +277,7 @@ export const products: Product[] = [
       { label: 'Regeneration', value: 'Time/Volume based Automatic' },
       { label: 'MOC', value: 'FRP / Composite' },
     ],
-    image: 'https://placehold.co/800x600/2E9DE0/FFF?text=Water+Softener',
+    image: 'https://placehold.co/800x600/6C9BB0/FFF.png?text=Water+Softener',
   },
   {
     id: 'com-4',
@@ -299,7 +299,7 @@ export const products: Product[] = [
       { label: 'Chamber Material', value: 'SS 304 / SS 316L' },
       { label: 'Lamp Type', value: 'Low Pressure High Output (LPHO)' },
     ],
-    image: 'https://placehold.co/800x600/0B3D6E/FFF?text=UV+Plant',
+    image: 'https://placehold.co/800x600/26495C/FFF.png?text=UV+Plant',
   },
   {
     id: 'com-5',
@@ -321,7 +321,7 @@ export const products: Product[] = [
       { label: 'Operation', value: 'Manual / Semi-Auto / Auto' },
       { label: 'Backwash', value: 'Required periodically' },
     ],
-    image: 'https://placehold.co/800x600/2E9DE0/FFF?text=Filtration+Plant',
+    image: 'https://placehold.co/800x600/6C9BB0/FFF.png?text=Filtration+Plant',
   },
   {
     id: 'com-6',
@@ -343,7 +343,7 @@ export const products: Product[] = [
       { label: 'Standards', value: 'IS 14543 (BIS standard) compliant design' },
       { label: 'Components', value: 'Treatment + Filling + Packaging' },
     ],
-    image: 'https://placehold.co/800x600/0B3D6E/FFF?text=Bottling+Plant',
+    image: 'https://placehold.co/800x600/26495C/FFF.png?text=Bottling+Plant',
   },
 
   // RESIDENTIAL
@@ -367,7 +367,7 @@ export const products: Product[] = [
       { label: 'Max Duty Cycle', value: '75 Liters/Day' },
       { label: 'Suitable for', value: 'Borewell / Municipal water' },
     ],
-    image: 'https://placehold.co/800x600/2E9DE0/FFF?text=Domestic+RO',
+    image: 'https://placehold.co/800x600/6C9BB0/FFF.png?text=Domestic+RO',
   },
   {
     id: 'res-2',
@@ -389,7 +389,7 @@ export const products: Product[] = [
       { label: 'Regeneration', value: 'Fully Automatic Digital Valve' },
       { label: 'Salt Consumption', value: 'Optimized efficiency' },
     ],
-    image: 'https://placehold.co/800x600/0B3D6E/FFF?text=Whole+House+Softener',
+    image: 'https://placehold.co/800x600/26495C/FFF.png?text=Whole+House+Softener',
   },
   {
     id: 'res-3',
@@ -411,7 +411,7 @@ export const products: Product[] = [
       { label: 'Power Consumption', value: '11W to 16W' },
       { label: 'Application', value: 'TDS < 300 ppm' },
     ],
-    image: 'https://placehold.co/800x600/4CAF50/FFF?text=UV+Purifier',
+    image: 'https://placehold.co/800x600/7A9B6E/FFF.png?text=UV+Purifier',
   },
   {
     id: 'res-4',
@@ -433,7 +433,7 @@ export const products: Product[] = [
       { label: 'Max Pressure', value: '125 PSI' },
       { label: 'Connection', value: '1/2", 3/4", 1" Threaded' },
     ],
-    image: 'https://placehold.co/800x600/2E9DE0/FFF?text=Cartridge+Filters',
+    image: 'https://placehold.co/800x600/6C9BB0/FFF.png?text=Cartridge+Filters',
   },
   {
     id: 'res-5',
@@ -455,6 +455,6 @@ export const products: Product[] = [
       { label: 'Type', value: 'Chemical reagent drops / Strips' },
       { label: 'Shelf Life', value: '1 Year' },
     ],
-    image: 'https://placehold.co/800x600/0B3D6E/FFF?text=Testing+Kits',
+    image: 'https://placehold.co/800x600/26495C/FFF.png?text=Testing+Kits',
   },
 ];

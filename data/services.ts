@@ -14,7 +14,7 @@ export const services: ServiceItem[] = [
     slug: 'installation',
     description: 'Expert, end-to-end commissioning of water treatment plants ensuring zero-defect deployment.',
     icon: 'Wrench',
-    image: 'https://placehold.co/600x400/0E3B45/F6F4EF?text=Professional+Installation'
+    image: 'https://placehold.co/600x400/26495C/F6F4EF.png?text=Professional+Installation'
   },
   {
     id: 'srv-2',
@@ -22,7 +22,7 @@ export const services: ServiceItem[] = [
     slug: 'amc-maintenance',
     description: 'Comprehensive preventative and breakdown maintenance plans to maximize plant uptime.',
     icon: 'ShieldCheck',
-    image: 'https://placehold.co/600x400/1C7C93/F6F4EF?text=AMC+Maintenance'
+    image: 'https://placehold.co/600x400/6C9BB0/F6F4EF.png?text=AMC+Maintenance'
   },
   {
     id: 'srv-3',
@@ -30,6 +30,22 @@ export const services: ServiceItem[] = [
     slug: 'consultation',
     description: 'Detailed water audits, feasibility studies, and regulatory compliance consulting.',
     icon: 'ClipboardList',
-    image: 'https://placehold.co/600x400/2F6B47/F6F4EF?text=Consultation+Services'
+    image: 'https://placehold.co/600x400/7A9B6E/F6F4EF.png?text=Consultation+Services'
+  },
+  {
+    id: 'srv-4',
+    title: 'Turnkey Project Setup',
+    slug: 'turnkey',
+    description: 'From design and civil works to final commissioning, we handle the entire project lifecycle.',
+    icon: 'Factory',
+    image: 'https://placehold.co/600x400/26495C/F6F4EF.png?text=Turnkey+Setup'
+  },
+  {
+    id: 'srv-5',
+    title: 'Spare Parts & Support',
+    slug: 'spares',
+    description: 'Genuine OEM spares and prompt technical support for all your water treatment needs.',
+    icon: 'Settings',
+    image: 'https://placehold.co/600x400/6C9BB0/F6F4EF.png?text=Spares+Support'
   }
 ];

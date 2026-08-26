@@ -14,8 +14,8 @@ export const IndustriesOverview = () => {
     <SectionWrapper bg="gray">
       <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
         <div className="max-w-2xl">
-          <h2 className="text-3xl md:text-4xl font-bold text-brand-navy mb-4">Industries We Serve</h2>
-          <p className="text-lg text-gray-600">
+          <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">Industries We Serve</h2>
+          <p className="text-lg text-text-muted">
             Tailored water treatment solutions engineered for the specific compliance and volume needs of your sector.
           </p>
         </div>

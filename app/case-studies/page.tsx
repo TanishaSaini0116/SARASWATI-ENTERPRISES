@@ -6,8 +6,8 @@ export default function CaseStudiesPage() {
   return (
     <SectionWrapper bg="gray" className="pt-32">
       <div className="text-center max-w-3xl mx-auto mb-16">
-        <h1 className="text-4xl md:text-5xl font-bold text-brand-navy mb-6">Success Stories</h1>
-        <p className="text-lg text-gray-600">
+        <h1 className="text-4xl md:text-5xl font-bold text-primary mb-6">Success Stories</h1>
+        <p className="text-lg text-text-muted">
           Discover how Saraswati Enterprises has helped industries achieve compliance, reduce costs, and improve efficiency through advanced water treatment.
         </p>
       </div>

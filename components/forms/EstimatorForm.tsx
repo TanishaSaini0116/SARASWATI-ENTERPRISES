@@ -43,16 +43,16 @@ export const EstimatorForm = () => {
           required 
           placeholder="e.g. 1000"
         />
-        <button type="submit" className="w-full bg-brand-blue text-white py-4 rounded-lg font-bold hover:bg-opacity-90 transition">
+        <button type="submit" className="w-full bg-accent text-white py-4 rounded-lg font-bold hover:bg-opacity-90 transition">
           Calculate Estimate
         </button>
       </form>
 
       {estimate && (
-        <div className="mt-8 p-6 bg-brand-navy text-white rounded-xl text-center animate-in fade-in slide-in-from-bottom-4">
-          <p className="text-sm font-semibold text-brand-green uppercase tracking-wide mb-2">Estimated Budget Range</p>
+        <div className="mt-8 p-6 bg-primary text-white rounded-xl text-center animate-in fade-in slide-in-from-bottom-4">
+          <p className="text-sm font-semibold text-green-accent uppercase tracking-wide mb-2">Estimated Budget Range</p>
           <h3 className="text-3xl font-bold">{estimate}*</h3>
-          <p className="text-xs text-gray-400 mt-4">*This is a rough estimate. Actual cost depends on raw water analysis and site conditions.</p>
+          <p className="text-xs text-text-muted mt-4">*This is a rough estimate. Actual cost depends on raw water analysis and site conditions.</p>
         </div>
       )}
     </div>

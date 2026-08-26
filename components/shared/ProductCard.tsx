@@ -13,33 +13,33 @@ export const ProductCard = ({ product }: { product: Product }) => {
           fill
           className="object-cover group-hover:scale-105 transition-transform duration-500"
         />
-        <div className="absolute top-4 right-4 bg-brand-blue text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">
+        <div className="absolute top-4 right-4 bg-accent text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">
           {product.category}
         </div>
       </div>
-      
+
       <div className="p-6 flex flex-col flex-grow">
-        <h3 className="text-xl font-bold text-brand-navy mb-3 group-hover:text-brand-blue transition-colors">
+        <h3 className="text-xl font-bold text-primary mb-3 group-hover:text-accent transition-colors">
           {product.name}
         </h3>
-        <p className="text-gray-600 text-sm leading-relaxed mb-6 flex-grow">
+        <p className="text-text-muted text-sm leading-relaxed mb-6 flex-grow">
           {product.shortDescription}
         </p>
-        
+
         <div className="space-y-2 mb-6">
           {product.specifications.slice(0, 2).map((spec, idx) => (
             <div key={idx} className="flex justify-between text-sm">
-              <span className="text-gray-500">{spec.label}</span>
-              <span className="font-semibold text-brand-navy text-right">{spec.value}</span>
+              <span className="text-text-muted">{spec.label}</span>
+              <span className="font-semibold text-primary text-right">{spec.value}</span>
             </div>
           ))}
         </div>
-        
+
         <div className="pt-4 border-t border-gray-100 mt-auto">
-          <CTAButton 
-            href={`/${product.category.toLowerCase()}/${product.slug}`} 
-            variant="outline" 
-            className="w-full text-center group-hover:bg-brand-navy group-hover:text-white"
+          <CTAButton
+            href={`/${product.category.toLowerCase()}/${product.slug}`}
+            variant="outline"
+            className="w-full text-center group-hover:bg-primary group-hover:text-white"
           >
             View Details
           </CTAButton>

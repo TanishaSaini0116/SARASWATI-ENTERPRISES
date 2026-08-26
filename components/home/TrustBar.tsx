@@ -11,7 +11,7 @@ export const TrustBar = () => {
   ];
 
   return (
-    <div className="bg-brand-navy py-12 border-y border-brand-blue/20">
+    <div className="bg-primary py-12 border-y border-accent/20">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 divide-x divide-white/10">
           {stats.map((stat, index) => (
@@ -26,7 +26,7 @@ export const TrustBar = () => {
               <div className="text-4xl md:text-5xl font-bold text-white mb-2 tracking-tight">
                 {stat.value}
               </div>
-              <div className="text-brand-green font-medium text-sm md:text-base uppercase tracking-wider">
+              <div className="text-green-accent font-medium text-sm md:text-base uppercase tracking-wider">
                 {stat.label}
               </div>
             </motion.div>

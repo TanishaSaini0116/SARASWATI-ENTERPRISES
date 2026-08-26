@@ -18,12 +18,12 @@ export const ContactForm = () => {
 
   if (status === 'success') {
     return (
-      <div className="bg-green-50 p-8 rounded-2xl text-center border border-green-100">
-        <h3 className="text-2xl font-bold text-green-800 mb-2">Message Sent Successfully!</h3>
-        <p className="text-green-700">Thank you for reaching out. Our team will get back to you within 24 hours.</p>
+      <div className="bg-soft-bg p-8 rounded-2xl text-center border border-green-accent">
+        <h3 className="text-2xl font-bold text-primary mb-2">Message Sent Successfully!</h3>
+        <p className="text-primary">Thank you for reaching out. Our team will get back to you within 24 hours.</p>
         <button 
           onClick={() => setStatus('idle')}
-          className="mt-6 text-brand-navy font-semibold hover:underline"
+          className="mt-6 text-primary font-semibold hover:underline"
         >
           Send another message
         </button>
@@ -58,7 +58,7 @@ export const ContactForm = () => {
       <button 
         type="submit" 
         disabled={status === 'submitting'}
-        className="w-full bg-brand-green text-white font-semibold py-4 rounded-lg shadow-md hover:bg-[#3d8c40] transition-colors disabled:opacity-70 flex justify-center items-center"
+        className="w-full bg-green-accent text-white font-semibold py-4 rounded-lg shadow-md hover:bg-green-accent transition-colors disabled:opacity-70 flex justify-center items-center"
       >
         {status === 'submitting' ? 'Sending...' : 'Send Message'}
       </button>

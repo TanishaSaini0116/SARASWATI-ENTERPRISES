@@ -21,21 +21,21 @@ export default function FAQPage() {
   return (
     <SectionWrapper bg="gray" className="min-h-screen pt-32">
       <div className="max-w-3xl mx-auto">
-        <h1 className="text-4xl md:text-5xl font-bold text-brand-navy mb-4 text-center">Frequently Asked Questions</h1>
-        <p className="text-lg text-gray-600 text-center mb-12">Find answers to common questions about our water treatment solutions.</p>
+        <h1 className="text-4xl md:text-5xl font-bold text-primary mb-4 text-center">Frequently Asked Questions</h1>
+        <p className="text-lg text-text-muted text-center mb-12">Find answers to common questions about our water treatment solutions.</p>
         
         <div className="space-y-4">
           {faqs.map((faq, i) => (
             <div key={i} className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden">
               <button 
                 onClick={() => setOpenIdx(openIdx === i ? null : i)}
-                className="w-full px-6 py-4 flex items-center justify-between font-bold text-left text-brand-navy hover:bg-gray-50 transition-colors"
+                className="w-full px-6 py-4 flex items-center justify-between font-bold text-left text-primary hover:bg-soft-bg transition-colors"
               >
                 <span>{faq.q}</span>
                 <ChevronDown className={`w-5 h-5 transition-transform ${openIdx === i ? 'rotate-180' : ''}`} />
               </button>
               {openIdx === i && (
-                <div className="px-6 pb-4 pt-2 text-gray-600 border-t border-gray-100">
+                <div className="px-6 pb-4 pt-2 text-text-muted border-t border-gray-100">
                   {faq.a}
                 </div>
               )}

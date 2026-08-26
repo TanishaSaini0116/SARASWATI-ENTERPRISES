@@ -14,9 +14,9 @@ export const AMCInquiryForm = () => {
 
   if (status === 'success') {
     return (
-      <div className="p-8 text-center bg-green-50 rounded-xl">
-        <h3 className="text-xl font-bold text-green-800">AMC Inquiry Received!</h3>
-        <p className="mt-2 text-green-700">Our maintenance team will schedule an inspection shortly.</p>
+      <div className="p-8 text-center bg-soft-bg rounded-xl">
+        <h3 className="text-xl font-bold text-primary">AMC Inquiry Received!</h3>
+        <p className="mt-2 text-primary">Our maintenance team will schedule an inspection shortly.</p>
       </div>
     );
   }
@@ -44,7 +44,7 @@ export const AMCInquiryForm = () => {
         <FormField label="Installation Year" />
       </div>
       <FormField label="Current Issues (if any) / Remarks" as="textarea" />
-      <button type="submit" disabled={status === 'submitting'} className="w-full bg-brand-green text-white py-4 rounded-lg font-bold hover:bg-opacity-90 transition">
+      <button type="submit" disabled={status === 'submitting'} className="w-full bg-green-accent text-white py-4 rounded-lg font-bold hover:bg-opacity-90 transition">
         {status === 'submitting' ? 'Submitting...' : 'Request AMC Visit'}
       </button>
     </form>

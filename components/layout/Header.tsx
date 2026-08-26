@@ -54,26 +54,17 @@ export const Header = () => {
     <header className="sticky top-0 z-50 w-full bg-white border-b border-gray-200 shadow-sm">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
-          {/* Logo & Tagline */}
+          {/* Logo */}
           <div className="flex items-center gap-4">
-            <Link href="/" className="flex items-center gap-3">
-              <div className="flex items-center justify-center shrink-0">
-                {/* Note: Provide a transparent icon-only PNG for this logo slot */}
-                <Image src="/logos/saraswati-logo.png" alt="Saraswati Enterprises Icon" width={48} height={48} className="object-contain" priority />
-              </div>
-              <div className="flex flex-col">
-                <span className="text-xl font-heading font-bold text-brand-navy tracking-tight leading-none">
-                  Saraswati Enterprises
-                </span>
-                <span className="text-xs font-medium text-brand-green tracking-wide uppercase mt-1">
-                  Clean Water. Better Future.
-                </span>
+            <Link href="/" className="flex items-center">
+              <div className="flex items-center justify-center shrink-0 py-2">
+                <Image src="/logos/Logo.png" alt="Saraswati Enterprises Logo" width={240} height={60} className="h-12 md:h-14 w-auto object-contain" priority />
               </div>
             </Link>
           </div>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center gap-8">
+          <nav className="hidden lg:flex items-center gap-8">
             {navItems.map((item) => (
               <div
                 key={item.title}
@@ -83,7 +74,7 @@ export const Header = () => {
               >
                 <Link
                   href={item.href}
-                  className="flex items-center gap-1 text-sm font-bold text-gray-700 hover:text-brand-blue transition-colors py-8"
+                  className="flex items-center gap-1 text-sm font-bold text-gray-700 hover:text-accent transition-colors py-8"
                 >
                   {item.title}
                   {item.children && <ChevronDown className="w-4 h-4" />}
@@ -106,9 +97,9 @@ export const Header = () => {
                               <Link
                                 key={child.title}
                                 href={child.href}
-                                className="block p-4 rounded-lg bg-gray-50 hover:bg-brand-navy hover:text-white transition-all group/card"
+                                className="block p-4 rounded-lg bg-gray-50 hover:bg-primary hover:text-white transition-all group/card"
                               >
-                                <div className="text-base font-bold text-brand-navy group-hover/card:text-white mb-2">
+                                <div className="text-base font-bold text-primary group-hover/card:text-white mb-2">
                                   {child.title}
                                 </div>
                                 <div className="text-xs text-gray-500 group-hover/card:text-gray-300 leading-relaxed">
@@ -124,7 +115,7 @@ export const Header = () => {
                               href={child.href}
                               className="block px-4 py-3 hover:bg-gray-50 transition-colors"
                             >
-                              <div className="text-sm font-semibold text-brand-navy">
+                              <div className="text-sm font-semibold text-primary">
                                 {child.title}
                               </div>
                             </Link>
@@ -139,9 +130,9 @@ export const Header = () => {
           </nav>
 
           {/* CTA & Contact */}
-          <div className="hidden md:flex items-center gap-4">
-            <div className="flex items-center gap-2 text-brand-navy font-semibold text-sm mr-2">
-              <PhoneCall className="w-4 h-4 text-brand-blue" />
+          <div className="hidden lg:flex items-center gap-4">
+            <div className="flex items-center gap-2 text-primary font-semibold text-sm mr-2">
+              <PhoneCall className="w-4 h-4 text-accent" />
               <span>+91 98765 43210</span>
             </div>
             <CTAButton href="/contact" variant="primary">
@@ -150,10 +141,10 @@ export const Header = () => {
           </div>
 
           {/* Mobile Menu Button */}
-          <div className="md:hidden flex items-center">
+          <div className="lg:hidden flex items-center">
             <button
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-              className="p-2 text-gray-600 hover:text-brand-navy"
+              className="p-2 text-gray-600 hover:text-primary"
             >
               {isMobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
             </button>
@@ -168,14 +159,14 @@ export const Header = () => {
             initial={{ height: 0, opacity: 0 }}
             animate={{ height: 'auto', opacity: 1 }}
             exit={{ height: 0, opacity: 0 }}
-            className="md:hidden overflow-hidden bg-white border-t border-gray-100"
+            className="lg:hidden overflow-hidden bg-white border-t border-gray-100"
           >
             <div className="px-4 py-6 space-y-4">
               {navItems.map((item) => (
                 <div key={item.title}>
                   <Link
                     href={item.children ? '#' : item.href}
-                    className="block text-lg font-semibold text-brand-navy py-2"
+                    className="block text-lg font-semibold text-primary py-2"
                   >
                     {item.title}
                   </Link>
