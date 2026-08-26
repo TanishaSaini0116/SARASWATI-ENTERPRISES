@@ -14,9 +14,9 @@ export const CommercialQuoteForm = () => {
 
   if (status === 'success') {
     return (
-      <div className="p-8 text-center bg-green-50 rounded-xl">
-        <h3 className="text-xl font-bold text-green-800">Quote Request Received!</h3>
-        <p className="mt-2 text-green-700">We will get back to you with a competitive quote.</p>
+      <div className="p-8 text-center bg-soft-bg rounded-xl">
+        <h3 className="text-xl font-bold text-primary">Quote Request Received!</h3>
+        <p className="mt-2 text-primary">We will get back to you with a competitive quote.</p>
       </div>
     );
   }
@@ -55,7 +55,7 @@ export const CommercialQuoteForm = () => {
         ]}
       />
       <FormField label="Estimated Daily Water Usage (Liters) / Number of People" required />
-      <button type="submit" disabled={status === 'submitting'} className="w-full bg-brand-blue text-white py-4 rounded-lg font-bold hover:bg-opacity-90 transition">
+      <button type="submit" disabled={status === 'submitting'} className="w-full bg-accent text-white py-4 rounded-lg font-bold hover:bg-opacity-90 transition">
         {status === 'submitting' ? 'Submitting...' : 'Request Quote'}
       </button>
     </form>

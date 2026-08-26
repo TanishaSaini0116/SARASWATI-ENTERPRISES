@@ -32,7 +32,7 @@ export const ServicesOverview = () => {
   return (
     <SectionWrapper>
       <div className="text-center max-w-3xl mx-auto mb-16">
-        <h2 className="text-3xl md:text-4xl font-bold text-brand-navy mb-6">Our Core Capabilities</h2>
+        <h2 className="text-3xl md:text-4xl font-bold text-primary mb-6">Our Core Capabilities</h2>
         <p className="text-lg text-gray-600">
           As indicated by our brand identity, we specialize in these four foundational pillars of water and wastewater management.
         </p>
@@ -48,20 +48,20 @@ export const ServicesOverview = () => {
             transition={{ duration: 0.5, delay: idx * 0.1 }}
             className="group relative overflow-hidden rounded-2xl aspect-[4/5] shadow-lg"
           >
-            <Image 
-              src={service.img} 
-              alt={service.title} 
-              fill 
-              className="object-cover transition-transform duration-700 group-hover:scale-110" 
+            <Image
+              src={service.img}
+              alt={service.title}
+              fill
+              className="object-cover transition-transform duration-700 group-hover:scale-110"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-brand-navy via-brand-navy/60 to-transparent p-6 flex flex-col justify-end">
+            <div className="absolute inset-0 bg-gradient-to-t from-primary via-primary/60 to-transparent p-6 flex flex-col justify-end">
               <h3 className="text-2xl font-bold text-white mb-2">{service.title}</h3>
               <p className="text-gray-200 text-sm">{service.desc}</p>
             </div>
           </motion.div>
         ))}
       </div>
-      
+
       <div className="mt-12 text-center">
         <CTAButton href="/industrial" variant="outline">
           View All Products

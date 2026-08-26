@@ -26,7 +26,7 @@ export const industries: Industry[] = [
       'Sanitization of distribution loops'
     ],
     recommendedProducts: ['ro-plant', 'dm-plant', 'mix-bed-unit', 'uv-plant'],
-    image: 'https://placehold.co/800x600/0B3D6E/FFF?text=Pharmaceutical+Water',
+    image: 'https://placehold.co/800x600/26495C/FFF.png?text=Pharmaceutical+Water',
   },
   {
     id: 'ind-manufacturing',
@@ -42,7 +42,7 @@ export const industries: Industry[] = [
       'Minimizing fresh water intake via recycling'
     ],
     recommendedProducts: ['ro-plant', 'etp', 'water-softener', 'water-treatment-chemicals'],
-    image: 'https://placehold.co/800x600/2E9DE0/FFF?text=Manufacturing+Plant',
+    image: 'https://placehold.co/800x600/6C9BB0/FFF.png?text=Manufacturing+Plant',
   },
   {
     id: 'ind-textile',
@@ -58,7 +58,7 @@ export const industries: Industry[] = [
       'Meeting strict ZLD regulatory mandates'
     ],
     recommendedProducts: ['etp', 'uf-system', 'ro-plant', 'water-treatment-chemicals'],
-    image: 'https://placehold.co/800x600/4CAF50/FFF?text=Textile+Industry',
+    image: 'https://placehold.co/800x600/7A9B6E/FFF.png?text=Textile+Industry',
   },
   {
     id: 'ind-food-beverage',
@@ -74,7 +74,7 @@ export const industries: Industry[] = [
       'Treating high BOD wastewater from food processing'
     ],
     recommendedProducts: ['ro-plant', 'uv-plant', 'filtration-plant', 'stp'],
-    image: 'https://placehold.co/800x600/0B3D6E/FFF?text=Food+and+Beverage',
+    image: 'https://placehold.co/800x600/26495C/FFF.png?text=Food+and+Beverage',
   },
 
   // SECTORS (Commercial Buyers)
@@ -92,7 +92,7 @@ export const industries: Industry[] = [
       'Uninterrupted 24/7 operation'
     ],
     recommendedProducts: ['ro-plant', 'uv-plant', 'stp', 'water-softener'],
-    image: 'https://placehold.co/800x600/2E9DE0/FFF?text=Healthcare+Water',
+    image: 'https://placehold.co/800x600/6C9BB0/FFF.png?text=Healthcare+Water',
   },
   {
     id: 'sec-hotels',
@@ -108,7 +108,7 @@ export const industries: Industry[] = [
       'Space constraints for sewage treatment'
     ],
     recommendedProducts: ['ro-plant', 'water-softener', 'stp', 'filtration-plant'],
-    image: 'https://placehold.co/800x600/4CAF50/FFF?text=Hotel+Water+Systems',
+    image: 'https://placehold.co/800x600/7A9B6E/FFF.png?text=Hotel+Water+Systems',
   },
   {
     id: 'sec-schools',
@@ -124,7 +124,7 @@ export const industries: Industry[] = [
       'Vandal-proof and durable installations'
     ],
     recommendedProducts: ['ro-plant', 'uv-plant', 'stp'],
-    image: 'https://placehold.co/800x600/0B3D6E/FFF?text=School+Water+Purification',
+    image: 'https://placehold.co/800x600/26495C/FFF.png?text=School+Water+Purification',
   },
   {
     id: 'sec-offices',
@@ -140,6 +140,6 @@ export const industries: Industry[] = [
       'Hassle-free maintenance'
     ],
     recommendedProducts: ['ro-plant', 'water-softener', 'cartridge-filter'],
-    image: 'https://placehold.co/800x600/2E9DE0/FFF?text=Office+RO+Systems',
+    image: 'https://placehold.co/800x600/6C9BB0/FFF.png?text=Office+RO+Systems',
   },
 ];

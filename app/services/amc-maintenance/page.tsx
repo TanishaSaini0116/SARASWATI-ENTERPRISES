@@ -4,14 +4,14 @@ import Image from 'next/image';
 import { CheckCircle2 } from 'lucide-react';
 
 export default function AMCMaintenancePage() {
-  const imageUrl = "https://placehold.co/800x600/1C7C93/F6F4EF?text=AMC+Maintenance";
+  const imageUrl = "https://placehold.co/800x600/6C9BB0/F6F4EF?text=AMC+Maintenance";
 
   return (
     <>
       <SectionWrapper bg="navy" className="pt-32 pb-20">
         <div className="max-w-4xl mx-auto text-center text-white">
           <h1 className="text-4xl md:text-5xl font-heading font-bold mb-6">Annual Maintenance Contracts (AMC)</h1>
-          <p className="text-lg text-gray-300 mb-8">
+          <p className="text-lg text-text-muted mb-8">
             Comprehensive preventative and breakdown maintenance plans to maximize plant uptime.
           </p>
           <CTAButton href="/contact/amc-inquiry" variant="primary">Inquire About AMC</CTAButton>
@@ -25,28 +25,28 @@ export default function AMCMaintenancePage() {
           </div>
           
           <div>
-            <h2 className="text-3xl font-heading font-bold text-brand-navy mb-6">Service Overview</h2>
-            <p className="text-gray-600 mb-6 leading-relaxed">
+            <h2 className="text-3xl font-heading font-bold text-primary mb-6">Service Overview</h2>
+            <p className="text-text-muted mb-6 leading-relaxed">
               Downtime is costly. Our AMC packages are designed to shift your maintenance strategy from reactive to proactive. We deploy trained technicians at scheduled intervals to monitor health, replace consumables, and optimize efficiency.
             </p>
             
-            <h3 className="text-2xl font-heading font-bold text-brand-navy mb-4">What We Cover</h3>
+            <h3 className="text-2xl font-heading font-bold text-primary mb-4">What We Cover</h3>
             <ul className="space-y-3">
               <li className="flex items-start">
-                <CheckCircle2 className="w-6 h-6 text-brand-green shrink-0 mr-3" />
-                <span className="text-gray-700">Scheduled Preventative Maintenance</span>
+                <CheckCircle2 className="w-6 h-6 text-green-accent shrink-0 mr-3" />
+                <span className="text-text-secondary">Scheduled Preventative Maintenance</span>
               </li>
               <li className="flex items-start">
-                <CheckCircle2 className="w-6 h-6 text-brand-green shrink-0 mr-3" />
-                <span className="text-gray-700">Priority Breakdown Support</span>
+                <CheckCircle2 className="w-6 h-6 text-green-accent shrink-0 mr-3" />
+                <span className="text-text-secondary">Priority Breakdown Support</span>
               </li>
               <li className="flex items-start">
-                <CheckCircle2 className="w-6 h-6 text-brand-green shrink-0 mr-3" />
-                <span className="text-gray-700">Consumables & Spare Parts Management</span>
+                <CheckCircle2 className="w-6 h-6 text-green-accent shrink-0 mr-3" />
+                <span className="text-text-secondary">Consumables & Spare Parts Management</span>
               </li>
               <li className="flex items-start">
-                <CheckCircle2 className="w-6 h-6 text-brand-green shrink-0 mr-3" />
-                <span className="text-gray-700">Monthly Performance Audits</span>
+                <CheckCircle2 className="w-6 h-6 text-green-accent shrink-0 mr-3" />
+                <span className="text-text-secondary">Monthly Performance Audits</span>
               </li>
             </ul>
           </div>

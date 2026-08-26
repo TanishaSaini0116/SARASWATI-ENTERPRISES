@@ -8,10 +8,10 @@ export default function SectorsIndex() {
   return (
     <SectionWrapper bg="gray" className="min-h-screen pt-32 pb-20">
       <div className="text-center max-w-3xl mx-auto mb-16">
-        <h1 className="text-4xl md:text-5xl font-heading font-bold text-brand-navy mb-6">
+        <h1 className="text-4xl md:text-5xl font-heading font-bold text-primary mb-6">
           Sectors We Serve
         </h1>
-        <p className="text-lg text-gray-600">
+        <p className="text-lg text-text-muted">
           Commercial water solutions crafted for institutional and public environments.
         </p>
       </div>
@@ -24,9 +24,9 @@ export default function SectorsIndex() {
                 <Image src={sector.image} alt={sector.title} fill className="object-cover group-hover:scale-105 transition-transform duration-500" />
               </div>
               <div className="p-8">
-                <h3 className="text-2xl font-bold font-heading text-brand-navy mb-3">{sector.title}</h3>
-                <p className="text-gray-600 mb-6">{sector.description}</p>
-                <div className="flex items-center text-brand-blue font-bold group-hover:text-brand-navy transition-colors">
+                <h3 className="text-2xl font-bold font-heading text-primary mb-3">{sector.title}</h3>
+                <p className="text-text-muted mb-6">{sector.description}</p>
+                <div className="flex items-center text-accent font-bold group-hover:text-primary transition-colors">
                   Learn More <ArrowRight className="w-4 h-4 ml-2" />
                 </div>
               </div>

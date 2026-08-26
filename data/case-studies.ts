@@ -28,7 +28,7 @@ export const caseStudies: CaseStudy[] = [
       'Reduced fresh water consumption by 450 KLD, saving significant operational costs.',
       'ROI achieved in just 2.5 years.'
     ],
-    image: 'https://placehold.co/800x600/0B3D6E/FFF?text=Textile+ZLD+Plant',
+    image: 'https://placehold.co/800x600/26495C/FFF.png?text=Textile+ZLD+Plant',
     featured: true,
   },
   {
@@ -46,7 +46,7 @@ export const caseStudies: CaseStudy[] = [
       'Successfully passed rigorous FDA and local regulatory audits.',
       'Automated sanitization reduced downtime by 30%.'
     ],
-    image: 'https://placehold.co/800x600/2E9DE0/FFF?text=Pharma+DM+Plant',
+    image: 'https://placehold.co/800x600/6C9BB0/FFF.png?text=Pharma+DM+Plant',
   },
   {
     id: 'cs-3',
@@ -63,6 +63,6 @@ export const caseStudies: CaseStudy[] = [
       'The MBBR STP fit into 50% less space than a conventional STP.',
       'Treated sewage water is now used for 100% of the hotel\'s landscaping needs.'
     ],
-    image: 'https://placehold.co/800x600/4CAF50/FFF?text=Hotel+STP',
+    image: 'https://placehold.co/800x600/7A9B6E/FFF.png?text=Hotel+STP',
   }
 ];

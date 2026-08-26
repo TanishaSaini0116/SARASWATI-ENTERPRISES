@@ -11,14 +11,14 @@ interface FormFieldProps extends React.InputHTMLAttributes<HTMLInputElement | HT
 export const FormField = React.forwardRef<HTMLElement, FormFieldProps>(
   ({ label, error, className, as = 'input', options, ...props }, ref) => {
     const baseClasses = cn(
-      "w-full px-4 py-3 rounded-lg border bg-white focus:outline-none focus:ring-2 focus:ring-brand-blue/50 transition-colors",
-      error ? "border-red-500 focus:border-red-500" : "border-gray-200 focus:border-brand-blue",
+      "w-full px-4 py-3 rounded-lg border bg-white focus:outline-none focus:ring-2 focus:ring-accent/50 transition-colors",
+      error ? "border-red-500 focus:border-red-500" : "border-gray-200 focus:border-accent",
       className
     );
 
     return (
       <div className="space-y-1.5">
-        <label className="block text-sm font-semibold text-gray-700">
+        <label className="block text-sm font-semibold text-text-secondary">
           {label} {props.required && <span className="text-red-500">*</span>}
         </label>
         
