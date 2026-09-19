@@ -14,7 +14,7 @@ interface FannedCardStackProps {
 export function FannedCardStack({ children, className }: FannedCardStackProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const cardsRef = useRef<(HTMLDivElement | null)[]>([]);
-  
+
   const childArray = React.Children.toArray(children);
 
   useGSAP(() => {
@@ -47,12 +47,12 @@ export function FannedCardStack({ children, className }: FannedCardStackProps) {
       });
 
       const totalCards = cards.length;
-      const maxAngle = 15; 
+      const maxAngle = 15;
       const spreadX = 25; // xPercent offset multiplier
 
       cards.forEach((card, i) => {
         const progress = totalCards > 1 ? i / (totalCards - 1) : 0.5;
-        const normalized = (progress - 0.5) * 2; 
+        const normalized = (progress - 0.5) * 2;
 
         tl.to(card, {
           opacity: 1,
@@ -77,7 +77,7 @@ export function FannedCardStack({ children, className }: FannedCardStackProps) {
           </div>
         ))}
       </div>
-      
+
       <div className="hidden md:block w-full h-full absolute inset-0">
         {childArray.map((child, i) => (
           <div
