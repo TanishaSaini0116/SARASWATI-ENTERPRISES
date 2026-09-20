@@ -2,14 +2,17 @@
 
 import { SectionWrapper } from '../shared/SectionWrapper';
 import { CTAButton } from '../shared/CTAButton';
-import { PhoneCall } from 'lucide-react';
+import { PhoneCall, Droplet, Leaf } from 'lucide-react';
 
 export const FinalCTA = () => {
   return (
     <SectionWrapper bg="navy" className="relative overflow-hidden">
-      {/* Decorative background elements */}
-      <div className="absolute top-0 right-0 -translate-y-1/2 translate-x-1/3 w-96 h-96 bg-accent rounded-full opacity-20 blur-3xl"></div>
-      <div className="absolute bottom-0 left-0 translate-y-1/2 -translate-x-1/3 w-96 h-96 bg-green-accent rounded-full opacity-20 blur-3xl"></div>
+      {/* Decorative background glow */}
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[1000px] h-[800px] bg-gradient-to-br from-blue-400/30 to-green-500/30 rounded-[100%] blur-[120px] pointer-events-none opacity-20" />
+      
+      {/* Water droplet and leaf cutouts */}
+      <Droplet className="absolute -top-20 -left-10 w-96 h-96 text-blue-200 opacity-[0.05] pointer-events-none -rotate-12" strokeWidth={0.5} />
+      <Leaf className="absolute -bottom-20 -right-10 w-96 h-96 text-green-200 opacity-[0.05] pointer-events-none rotate-12" strokeWidth={0.5} />
       
       <div className="relative z-10 text-center max-w-4xl mx-auto">
         <h2 className="text-4xl md:text-5xl font-bold mb-6">
