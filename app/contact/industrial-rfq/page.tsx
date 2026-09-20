@@ -1,6 +1,6 @@
 import { SectionWrapper } from '@/components/shared/SectionWrapper';
 import { CTAButton } from '@/components/shared/CTAButton';
-import { notFound } from 'next/navigation';
+// import { notFound } from 'next/navigation';
 
 // DUMMY CONTENT - Replace with real data later
 export default function Page() {

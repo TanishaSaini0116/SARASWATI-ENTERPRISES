@@ -16,7 +16,7 @@ export const FinalCTA = () => {
           Ready to Upgrade Your Water System?
         </h2>
         <p className="text-xl text-text-muted mb-10 max-w-2xl mx-auto">
-          Contact our engineers today for a free site assessment and technical consultation. Let's build a sustainable future together.
+          Contact our engineers today for a free site assessment and technical consultation. Let&apos;s build a sustainable future together.
         </p>
         
         <div className="flex flex-col sm:flex-row items-center justify-center gap-6 mb-12">

@@ -76,7 +76,7 @@ export function useImageSequence({
     // Render initial frame
     render();
 
-    let mm = gsap.matchMedia();
+    const mm = gsap.matchMedia();
 
     mm.add("(prefers-reduced-motion: no-preference)", () => {
       gsap.to(frameRef.current, {

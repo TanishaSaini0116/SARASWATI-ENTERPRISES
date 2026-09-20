@@ -29,7 +29,7 @@ export async function POST(request: Request) {
       currency: 'INR',
       disclaimer: 'This is a rough estimate. Actual pricing depends on raw water analysis and site constraints.'
     });
-  } catch (error) {
+  } catch {
     return NextResponse.json({ success: false, message: 'Failed to calculate estimate' }, { status: 500 });
   }
 }

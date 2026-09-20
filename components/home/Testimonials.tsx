@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence, Variants } from 'framer-motion';
-import { SectionWrapper } from '../shared/SectionWrapper';
+// import { SectionWrapper } from '../shared/SectionWrapper';
 import { Star, ChevronLeft, ChevronRight } from 'lucide-react';
 
 // Helper functions to convert 1536x696 design coordinates to responsive percentages
@@ -263,7 +263,7 @@ export const Testimonials = () => {
 
                   {/* Quote */}
                   <p className="font-serif italic font-bold text-gray-800 text-[1.1rem] leading-relaxed mb-8 text-balance">
-                    "{test.quote}"
+                    &quot;{test.quote}&quot;
                   </p>
 
                   {/* Author */}
@@ -314,7 +314,7 @@ export const Testimonials = () => {
 
                   {/* Quote */}
                   <p className="font-serif italic font-bold text-gray-800 text-[1.1rem] leading-relaxed mb-8 text-balance">
-                    "{test.quote}"
+                    &quot;{test.quote}&quot;
                   </p>
 
                   {/* Author */}

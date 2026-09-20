@@ -19,13 +19,13 @@ export default function ResourceDetail({ params }: { params: { slug: string } })
         
         <div className="prose prose-lg max-w-none text-text-muted mb-16">
           <p className="lead text-xl text-text-secondary mb-8 font-medium">
-            This is a dummy blog post content area for the article titled "{params.slug.replace(/-/g, ' ')}". 
+            This is a dummy blog post content area for the article titled &quot;{params.slug.replace(/-/g, ' ')}&quot;. 
             In the final version, this would be generated from an MDX file in the <code>content/resources/</code> folder.
           </p>
           <h2 className="text-2xl font-bold text-primary mb-4 mt-8">The Core Problem</h2>
           <p className="mb-6">
             Industries today face unprecedented challenges regarding water scarcity and stringent pollution control norms. 
-            Understanding the right treatment methodology is no longer optional—it's a critical business requirement.
+            Understanding the right treatment methodology is no longer optional&mdash;it&apos;s a critical business requirement.
           </p>
           <h2 className="text-2xl font-bold text-primary mb-4 mt-8">Key Considerations</h2>
           <ul className="list-disc pl-6 mb-6 space-y-2">

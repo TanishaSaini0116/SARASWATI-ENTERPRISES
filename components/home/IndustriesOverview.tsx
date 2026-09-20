@@ -82,7 +82,7 @@ export const IndustriesOverview = () => {
       x: x,
       opacity,
       filter: `blur(${blur}px)`,
-      transition: { duration: 0.5, ease: "easeInOut" }
+      transition: { duration: 0.5, ease: "easeInOut" as const }
     };
   };
 
@@ -194,7 +194,7 @@ export const IndustriesOverview = () => {
 
           {/* Mobile Swipeable Row */}
           <div className="md:hidden flex overflow-x-auto snap-x snap-mandatory gap-4 pb-8 -mx-4 px-4 no-scrollbar">
-            {carouselData.map((item, index) => {
+            {carouselData.map((item) => {
               const Icon = item.icon!;
               return (
                 <div 

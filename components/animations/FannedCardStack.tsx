@@ -3,7 +3,7 @@
 import React, { useRef, ReactNode } from "react";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
+// import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { cn } from "@/lib/utils";
 
 interface FannedCardStackProps {
@@ -18,7 +18,7 @@ export function FannedCardStack({ children, className }: FannedCardStackProps) {
   const childArray = React.Children.toArray(children);
 
   useGSAP(() => {
-    let mm = gsap.matchMedia();
+    const mm = gsap.matchMedia();
 
     mm.add("(min-width: 768px) and (prefers-reduced-motion: no-preference)", () => {
       if (!containerRef.current) return;

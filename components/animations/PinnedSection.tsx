@@ -17,7 +17,7 @@ export function PinnedSection({ children, className, end = "+=100%" }: PinnedSec
 
   useGSAP(() => {
     // Only pin on screens wider than 768px and if reduced motion is not preferred
-    let mm = gsap.matchMedia();
+    const mm = gsap.matchMedia();
 
     mm.add("(min-width: 768px) and (prefers-reduced-motion: no-preference)", () => {
       if (!containerRef.current) return;

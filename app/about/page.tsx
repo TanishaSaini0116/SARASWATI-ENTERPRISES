@@ -1,5 +1,5 @@
+/* eslint-disable @next/next/no-img-element */
 import { SectionWrapper } from '@/components/shared/SectionWrapper';
-import { CTAButton } from '@/components/shared/CTAButton';
 
 export default function AboutPage() {
   return (
